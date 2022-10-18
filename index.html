@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>NECBA Redesign</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="logo.ico">
+    <!-- Bootstrap CSS and JS for quicker and consistent styling -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Manrope font from Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <body>
+    <div class="d-flex flex-column align-items-center vw-100 vh-100">
+      <div class="d-flex flex-column landing-container px-4 pb-5">
+        <!-- The code in this <nav> tag was based on the first code block in Bootstrap 5's Navbar component documentation. 
+            It can be found at this link https://getbootstrap.com/docs/5.0/components/navbar/#responsive-behaviors -->
+        <nav class="navbar navbar-expand-sm">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="NECBA_Logo.png" class="logo" />
+            </a>
+            <div class="navbar-toggler" aria-label="Toggle navigation dropdown" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="navbar-toggler-icon feather-48" data-feather="menu"></i>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">Schedule & Scores</li>
+                <li class="nav-item">Standings</li>
+                <li class="nav-item">Playoffs</li>
+                <li class="nav-item dropdown">
+                  <span class="dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    More
+                  </span>
+                  <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                    <li class="dropdown-item">Championships</li>
+                    <li class="dropdown-item">Fields</li>
+                    <li class="dropdown-item">All-Stars</li>
+                    <li class="dropdown-item">Hall of Fame</li>
+                    <li class="dropdown-item">Fields</li>
+                    <li class="dropdown-item">Umpires</li>
+                    <li class="dropdown-item">Charter</li>
+                  </ul>
+                </li>
+                <button class="btn btn-primary">Contact Us</button>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="d-flex flex-grow-1 align-items-center justify-content-between pt-5 pb-3 px-3 px-sm-4 px-md-5">
+          <div class="d-flex flex-column gap-3 gap-md-4 landing-text-container">
+            <h1 class="landing-header">
+              New England Club Baseball Association
+            </h1>
+            <p class="landing-description">
+              Welcome to the New England Club Baseball Association! We are excited to be entering our 21st season! Stay tuned for the game schedule and other exciting updates!
+            </p>
+            <button class="btn btn-primary apply-btn">Apply to Join</button>
+          </div>
+          <div class="d-none d-sm-flex w-50 justify-content-center landing-image-container">
+            <img src="landing_page_icons.png" alt="Baseball bat, ball, and trophy"/>
+          </div>
+        </div>
+      </div>
+      <div class="body-container d-flex flex-column flex-grow-1 align-items-center">
+        <div class="sub-body-container pt-4">
+          <h1>Commissioners</h1>
+          <div class="card-grid commissioners-grid">
+            <div class="card">
+              <img src="steve.jpeg" class="card-img-top" alt="Steve Pinner" />
+              <div class="card-body">
+                <h5 class="card-title">Steve Pinner</h5>
+                <p class="card-subtitle">Commissioner</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="ed.jpeg" class="card-img-top" alt="Ed Macarelli" />
+              <div class="card-body">
+                <h5 class="card-title">Ed Macarelli</h5>
+                <p class="card-subtitle">Asst. Commissioner</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="glen.jpeg" class="card-img-top" alt="Glen Humes" />
+              <div class="card-body">
+                <h5 class="card-title">Glen Humes</h5>
+                <p class="card-subtitle">Asst. Commissioner</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sub-body-container pt-4">
+          <h1>Teams</h1>
+          <h2>North Division</h2>
+          <div class="card-grid teams-grid">
+            <div class="card">
+              <img src="dc.png" class="card-img-top" alt="Dartmouth College" />
+              <div class="card-body">
+                <h5 class="card-title">Dartmouth College</h5>
+              </div>
+            </div>
+            <div class="card">
+              <img src="fpu.png" class="card-img-top" alt="Franklin Pierce University" />
+              <div class="card-body">
+                <h5 class="card-title">Franklin Pierce University</h5>
+              </div>
+            </div>
+            <div class="card">
+              <img src="umb.png" class="card-img-top" alt="University of Massachusetts Boston" />
+              <div class="card-body">
+                <h5 class="card-title">UMass Boston</h5>
+              </div>
+            </div>
+            <div class="card">
+              <img src="une.png" class="card-img-top" alt="University of New England" />
+              <div class="card-body">
+                <h5 class="card-title">University of New England</h5>
+              </div>
+            </div>
+            <div class="card">
+              <img src="snhu.png" class="card-img-top" alt="Southern New Hampshire University" />
+              <div class="card-body">
+                <h5 class="card-title">Southern New Hampshire University</h5>
+              </div>
+            </div>
+            <div class="card">
+              <img src="tu.png" class="card-img-top" alt="Tufts University" />
+              <div class="card-body">
+                <h5 class="card-title">Tufts University</h5>
+              </div>
+            </div>
+            <div class="card">
+              <img src="uvm.png" class="card-img-top" alt="University of Vermont" />
+              <div class="card-body">
+                <h5 class="card-title">University of Vermont</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sub-body-container pt-4">
+          <h2>South Division</h2>
+          <div class="card-grid teams-grid">
+            <div class="card">
+              <img src="bc.png" class="card-img-top" alt="Babson College" />
+              <div class="card-body">
+                <h5 class="card-title">Babson College</h5>
+              </div>
+            </div>
+            <div class="card">
+              <img src="brown.png" class="card-img-top" alt="Brown University" />
+              <div class="card-body">
+                <h5 class="card-title">Brown University</h5>
+              </div>
+            </div>
+            <div class="card">
+              <img src="cc.png" class="card-img-top" alt="Connecticut College" />
+              <div class="card-body">
+                <h5 class="card-title">Connecticut College</h5>
+              </div>
+            </div>
+            <div class="card">
+              <img src="pc.png" class="card-img-top" alt="Providence College" />
+              <div class="card-body">
+                <h5 class="card-title">Providence College</h5>
+              </div>
+            </div>
+            <div class="card">
+              <img src="unh.png" class="card-img-top" alt="University of New Haven" />
+              <div class="card-body">
+                <h5 class="card-title">University of New Haven</h5>
+              </div>
+            </div>
+            <div class="card">
+              <img src="qu.png" class="card-img-top" alt="Quinnipiac University" />
+              <div class="card-body">
+                <h5 class="card-title">Quinnipiac University</h5>
+              </div>
+            </div>
+            <div class="card">
+              <img src="yu.png" class="card-img-top" alt="Yale University" />
+              <div class="card-body">
+                <h5 class="card-title">Yale University</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sub-body-container pt-4">
+          <h2>Independent Members</h2>
+          <div class="card-grid independent-grid">
+            <div class="card">
+              <img src="bu.png" class="card-img-top" alt="Bryant University" />
+              <div class="card-body">
+                <h5 class="card-title">Bryant University</h5>
+              </div>
+            </div>
+            <div class="card">
+              <img src="cmcc.png" class="card-img-top" alt="Central Maine Commmunity College" />
+              <div class="card-body">
+                <h5 class="card-title">Central Maine Commmunity College</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="" async defer></script>
+    <script>
+      feather.replace()
+    </script>
+  </body>
+</html>
