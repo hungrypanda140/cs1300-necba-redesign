@@ -44,6 +44,9 @@ body {
     row-gap: 0.5rem;
   }
 }
+.landing-container .navbar .navbar-toggler-icon {
+  cursor: pointer;
+}
 .landing-container .navbar .nav-item {
   text-align: center;
   font-weight: 600;
